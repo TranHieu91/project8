@@ -17,5 +17,8 @@
     "url": "https://github.com/TranHieu91/project8/issues"
   },
   "homepage": "https://github.com/TranHieu91/project8#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.64.2"
+  }
 }

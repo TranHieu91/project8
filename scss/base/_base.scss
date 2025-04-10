@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --text-color: #1A162E;
+    --icon-color: brightness(0) saturate(100%) invert(8%) sepia(19%) saturate(2576%) hue-rotate(215deg) brightness(93%) contrast(95%);
+}
+
 html {
     font-size: 62.5%;
 }
@@ -9,5 +14,27 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Gordita, sans-serif;
+    color: var(--text-color);
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button, input, textarea, select {
+    font-family: inherit; /* Kế thừa kiểu chữ từ phần tử cha */
+    color: inherit;        /* Kế thừa màu chữ từ phần tử cha */
+  }
+  
+
+.icon {
+    filter: var(--icon-color);
+  }
+  

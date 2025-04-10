@@ -1,0 +1,19 @@
+html.dark {
+    --text-color: #fff; /* Màu chữ: trắng */
+    
+    --icon-color: brightness(0) 
+                   saturate(100%) 
+                   invert(100%) 
+                   sepia(0%) 
+                   saturate(7482%) 
+                   hue-rotate(72deg) 
+                   brightness(99%) 
+                   contrast(99%);
+    /* Bộ lọc áp dụng cho icon để chuyển đổi màu phù hợp trong chế độ tối */
+  
+    --header-bg-color: #171c28;              /* Màu nền của phần tiêu đề */
+    --top-act-group-bg-color: #292e39;       /* Màu nền của nhóm hành động phía trên */
+    --top-act-group-shadow: rgba(0, 0, 0, 0.2); /* Bóng đổ cho nhóm hành động */
+    --top-act-group-separate: #ededf6;       /* Màu phân cách giữa các nhóm hành động */
+  }
+  

@@ -2,6 +2,7 @@
     position: absolute;
     left: 0;
     padding-top: 54px;
+    display: none;
 
     &__inner {
         position: relative;
@@ -13,6 +14,10 @@
 
         &::before {
             content: url("../icon/dropdown-arrow.svg");
+            position: absolute;
+            top: -13px;
+            left: var(--arrow-left-pos);
+            translate: -50%;
             }
       }
 
